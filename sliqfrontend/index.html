@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>sliq</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+
+  <main>
+    <h1 class="title">Text to Image!</h1>
+
+    <section class="grid">
+      <form id="myForm">
+        <label for="prompt">Awesome prompt:</label>
+        <input type="text" id="prompt" value="default">
+
+        <label for="pwd">Secret Key word:</label>
+        <input type="text" id="pwd">
+
+        <label for="imgWidth">Image Width:</label>
+        <input type="number" id="imgWidth" value="512">
+
+        <label for="imgHeight">Image Height:</label>
+        <input type="number" id="imgHeight" value="512">
+
+        <button type="button" onclick="dream()">Generate</button>
+      </form>
+
+      <!-- Container for the image -->
+      <div id="imageContainer"></div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

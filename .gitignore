@@ -1,0 +1,8 @@
+__pycache__
+*replit*
+.cache
+.pythonlibs
+*~
+.upm
+.breakpoints
+.config
